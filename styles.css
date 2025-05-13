@@ -1,0 +1,59 @@
+div.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    gap: 20px;
+    font-size: larger;
+}
+
+div.bottom {
+    display: flex;
+    justify-content: center;
+}
+
+ul#quotes-list {
+    list-style: none;
+}
+
+input {
+    padding: 5px;
+    width: 300px;
+}
+
+ul#quotes-list li {
+    margin: 1px;
+    width: 900px;
+    padding: 3px;
+    font-size: larger;
+    text-align: center;
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 10px;
+}
+
+b.error {
+    color: red;
+    font-size: large;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #000000;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
